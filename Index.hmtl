@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess</title>
+    <style>
+        canvas{
+            border: 3px solid;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+        }
+        body{
+            margin: 0;
+            background-color: blueviolet;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="canvasContainer">
+
+        <canvas></canvas>
+
+    </div>
+
+    <script src="Chessboard.js"></script>
+    <script src="Position.js"></script>
+    <script src="Pieces.js"></script>
+    <script src ='Main.js'></script>
+
+</body>
+</html>
